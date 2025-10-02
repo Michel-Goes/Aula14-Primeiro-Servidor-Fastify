@@ -5,7 +5,7 @@ const server = Fastify({
 })
 
 server.get('/home', (req, res) => {
-    let message = "Esse é servidor Fastify com Node.js"
+    let message = "Esse é servidor Fastify com Typescript"
     return res.send(message)
 })
 
